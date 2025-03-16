@@ -1,6 +1,6 @@
-from ultralytics import YOLOE
+from ultralytics import YOLO
 
 def load_model():
     """Load the YOLOE model."""
-    model = YOLOE("yoloe-v8l-seg.pt").cuda()  # Use GPU if available
+    model = YOLO("yoloe-v8l-seg.pt").cuda()  # Use GPU if available
     return model
