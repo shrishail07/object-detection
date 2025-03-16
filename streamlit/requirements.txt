@@ -1,5 +1,5 @@
 streamlit
-ultralytics
+ultralytics==8.1.37  # Ensures compatibility
 supervision
 opencv-python-headless
 pillow
